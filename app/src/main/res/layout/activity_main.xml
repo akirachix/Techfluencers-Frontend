@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTittle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTittle"
+        tools:listitem="@layout/exporters_list_item"/>
 
 
     <TextView
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="96dp"
         android:layout_marginTop="40dp"
-        tools:text="Meet Your Exporters"
+        android:text="Meet Your Exporters"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

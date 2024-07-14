@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 class ExportersAdapter (var exporterList: List<Exporter> ):
         RecyclerView.Adapter<ExporterViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExporterViewHolder {
-      val itemView = LayoutInflater.from(parent.context)
+        val itemView = LayoutInflater.from(parent.context)
           .inflate(R.layout.exporters_list_item, parent, false)
         return  ExporterViewHolder(itemView)
     }
